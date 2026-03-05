@@ -34,8 +34,8 @@ console.log(teachers)
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = console.log(teachers[5]);
+const lewisIndex = console.log(teachers.indexOf('Lewis'));
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = console.log(teachers.length);
+const isTeachersEmpty = console.log(teachers.length === 0);
